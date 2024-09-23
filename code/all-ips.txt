@@ -1,0 +1,4 @@
+proxy_2 Public IP 54.81.234.96
+proxy_1 Public IP 18.207.93.127
+web1 Private IP 10.0.1.11
+web2 Private IP 10.0.3.89
