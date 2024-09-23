@@ -45,13 +45,6 @@ This Terraform setup provisions a highly available web application infrastructur
   - The ALB operates at the application layer (HTTP) and balances traffic between the NGINX proxies in the public subnets. It is configured for path-based routing, sticky sessions.
   - The ALB forwards traffic to the appropriate proxy server based on the application layer requests.
 
-## Terraform Modules
-
-1. **Network Module:** To create VPC, IGW, Public RT, Private RT, NAT Gatway, Public SG, and Private SG.
-2. **Subnet Module:** To create Public Subnets and Private Subnets.
-3. **Instance Module:** To create EC2 instances in the public subnets that run NGINX and EC2 instances in the private subnets running Apache.
-4. **Loadbalancer Module:** To create Network Load Balancer (NLB) and Application Load Balancer (ALB)
-
 
 ## Remote bucket for statefile on "dev" workspace**
 
@@ -63,6 +56,14 @@ This Terraform setup provisions a highly available web application infrastructur
 ![Screenshot 2024-09-23 210346](https://github.com/user-attachments/assets/dace6b43-69c1-497f-9907-2a2a2c8e1b89)
 
 
+## Terraform Modules
+
+1. **Network Module:** To create VPC, IGW, Public RT, Private RT, NAT Gatway, Public SG, and Private SG.
+2. **Subnet Module:** To create Public Subnets and Private Subnets.
+3. **Instance Module:** To create EC2 instances in the public subnets that run NGINX and EC2 instances in the private subnets running Apache.
+4. **Loadbalancer Module:** To create Network Load Balancer (NLB) and Application Load Balancer (ALB)
+
+   
 ## Datasource to get the image id for ec2
 
 ```hc
