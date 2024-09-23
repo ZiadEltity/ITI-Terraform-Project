@@ -42,6 +42,7 @@ This Terraform setup provisions a highly available web application infrastructur
 
 2. **Terraform modules.**
 
+```hc
 module "network" {
   source       = "./modules/network"
   pub_sub1_id  = module.subnet.pub_sub1_id
@@ -81,6 +82,7 @@ module "loadbalancer" {
   web1_id      = module.instance.web1_id
   web2_id      = module.instance.web2_id
 }
+```
 
 3. **Remote bucket for statefile.**
 4. **DynamoDB State Locking.**
