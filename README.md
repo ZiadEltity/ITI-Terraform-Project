@@ -182,4 +182,17 @@ resource "aws_subnet" "public" {
   }
 ```
 
+## Terraform Apply Result
+
+![Picture1](https://github.com/user-attachments/assets/3d833a88-f620-44ea-b7cf-e267dcad2f35)
+
+
+## Accessing the DNS
+
+![Done2](https://github.com/user-attachments/assets/8ce9bb73-6ecb-43d0-8b4a-6a09f1e79cab)
+
+
+## Terraform Destroy
+
+![Screenshot 2024-09-23 042453](https://github.com/user-attachments/assets/cd8ab18d-aaa9-4fd2-a141-35778d09c2d1)
 
