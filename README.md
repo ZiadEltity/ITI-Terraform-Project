@@ -15,10 +15,11 @@ This Terraform setup provisions a highly available web application infrastructur
 3. **Remote bucket for statefile.**
 4. **DynamoDB State Locking.**
 5. **Datasource to get the image id for ec2.**
-6. **for_each and dynamic Blocks**
-7. **Remote-exec provisioner to install apache or proxy in the machines.**
-8. **Local-exec provisioner to print all the machines ip to a file "all-ips.txt".**
-9. **File provisioner to transfer "index.html" to the private ec2s.**
+6. **dynamic Blocks**
+7. **for_each Meta-Argument**
+8. **Remote-exec provisioner to install apache or proxy in the machines.**
+9. **Local-exec provisioner to print all the machines ip to a file "all-ips.txt".**
+10. **File provisioner to transfer "index.html" to the private ec2s.**
 
 ## VPC (Virtual Private Cloud)
 
