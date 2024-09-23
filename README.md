@@ -47,7 +47,7 @@ This Terraform setup provisions a highly available web application infrastructur
   - The ALB forwards traffic to the appropriate proxy server based on the application layer requests.
 
 
-## Remote bucket for statefile on "dev" workspace**
+## Remote bucket for statefile on "dev" workspace
 
 ![Screenshot 2024-09-23 210241](https://github.com/user-attachments/assets/2c433ce3-8631-422f-a743-8ccf9722044d)
 
